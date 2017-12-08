@@ -1,7 +1,15 @@
 #File Handlings
 import csv
 
+'''
+import tensorflow as tf
 
+hello = tf.constant('Hello Tensorflow')
+sess =  tf.session()
+print(sess.run(hello))
+
+
+'''
 fileName = 'NewFileCreation.txt'
 
 file = open(fileName, mode = 'w')
